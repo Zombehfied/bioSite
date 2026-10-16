@@ -122,7 +122,11 @@ figcaption p {
 
 .about-layout img {
     width: 100%;
+    max-width: 250px;
     height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
 }
 
 .about-layout div {
