@@ -141,10 +141,13 @@ figcaption p {
 }
 
 .gaming-image {
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 140px;
+    display: block;
+    margin: 0 auto 20px auto;
     object-fit: cover;
-    border-radius: 50%;
+    object-position: center;
+    border-radius: 25px;
 }
 
 footer {
