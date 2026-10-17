@@ -140,8 +140,8 @@ figcaption p {
 }
 
 .gaming-layout {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 20px;
     align-items: center;
 }
@@ -157,11 +157,14 @@ figcaption p {
 }
 
 .gaming-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
 .gaming-media .gaming-image {
-    margin: 0 auto;
+    margin: 0;
 }
 
 .gaming-media .button {
