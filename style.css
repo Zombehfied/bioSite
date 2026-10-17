@@ -142,10 +142,10 @@ figcaption p {
 
 .gaming-image {
     width: 220px;
-    height: 140px;
+    height: 160px;
     display: block;
     margin: 0 auto 20px auto;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
     border-radius: 25px;
 }
@@ -159,6 +159,7 @@ footer {
 footer a {
     display: inline-block;
     color: #f5f5f5;
+    font-weight: bold;
     text-decoration: none;
     padding: 10px 15px;
 }
