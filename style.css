@@ -87,6 +87,12 @@ section {
     text-decoration: none;
 }
 
+.centered-button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+}
+
 .button:hover {
     background-color: #A63450;
 }
@@ -148,6 +154,18 @@ figcaption p {
     object-fit: contain;
     object-position: center;
     border-radius: 25px;
+}
+
+.gaming-media {
+    text-align: center;
+}
+
+.gaming-media .gaming-image {
+    margin: 0 auto;
+}
+
+.gaming-media .button {
+    margin-top: 10px;
 }
 
 footer {
