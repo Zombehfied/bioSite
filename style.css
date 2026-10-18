@@ -231,6 +231,10 @@ figcaption p {
     text-align: left;
 }
 
+.contact-section p.centered-text {
+    text-align: center;
+}
+
 .contact-section a {
     color: f5f5f5;
     text-decoration: underline;
