@@ -201,6 +201,14 @@ footer a:hover {
 
 .contact-section {
     color: #ffb2c7;
+}
+
+.contact-section h2 {
+    color: #ffb2c7;
+    text-decoration: underline;
+}
+
+.contact-section {
     text-decoration: underline;
 }
 
