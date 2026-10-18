@@ -24,25 +24,24 @@ h1, h2, h3 {
     text-align: center;
 }
 
-h1, h2 {
-    font-family: 'Press Start 2P';
-    font-weight: normal;
-    line-height: 1.6;
-}
-
 h1 {
+    font-family: 'Player Start 2P';
     font-size: 24px;
+    font-weight: normal;
     color: #FAFAFA;
 }
 
+h2, h3 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
 h2 {
-    font-size: 18px;
+    font-size: 26px;
 }
 
 h3 {
-    font-family: Arial, sans-serif;
     font-size: 20px;
-    font-weight: bold;
 }
 
 p {
