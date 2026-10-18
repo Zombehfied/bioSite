@@ -17,6 +17,7 @@ h1, h2, h3 {
     font-family: Arial, sans-serif;
     font-weight: bold;
     line-height: 1.3;
+    text-align: center;
 }
 
 h1 {
@@ -99,14 +100,8 @@ section {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
-}
-
-@media (max-width: 700px) {
-    .gallery {
-        grid-template-colums: repeat(auto-fit, minmax(220px, 1fr));
-    }
 }
 
 figure {
@@ -126,10 +121,11 @@ figure img {
 
 figcaption {
     margin-top: 10px;
+    text-align: center;
 }
 
 figcaption p {
-    text-align: left;
+    text-align: center;
 }
 
 .about-layout img {
