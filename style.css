@@ -276,3 +276,21 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Mobile Responsive Layout */
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    figure {
+        padding: 15px;
+    }
+
+    figure img {
+        height: 220px;
+        object-fit: contain;
+    }
+}
